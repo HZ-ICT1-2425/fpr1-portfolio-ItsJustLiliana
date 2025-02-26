@@ -1,0 +1,605 @@
+/* ---------Main body--------- */
+body {
+    background: linear-gradient(to bottom, black 50%, #2071dc 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.bg-main {
+    background: linear-gradient(to top, #000000c4 20%, #000000e5 70%, black 100%), url('https://itsjustliliana.github.io/images/mountains1.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+/* Explanatory text and titles*/
+.base {
+    color: white;
+    font-family: Kanit;
+    margin-top: 30px;
+}
+
+h2 {
+    color: rgb(217, 238, 253);
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.title {
+    color: white;
+    font-size: 23px;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Kanit;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.box-games {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 675px;
+}
+
+h1 {
+    color: rgb(217, 238, 253);
+    font-size: 40px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+
+/* Header and navigation bar */
+#hz-logo {
+    float: left;
+    width: 47px;
+    position: relative;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+nav {
+    color: black;
+    font-family: Kanit;
+    text-decoration: none;
+    font-style: bold;
+    text-align: center;
+    position: relative;
+    left: 11px;
+}
+
+.topnav {
+    background-color: rgba(0, 0, 0, 0.849);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-family: Kanit;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffffffcd;
+    color: black;
+}
+
+.topnav a.activenav {
+    background-color: #0560d8a4;
+    color: white;
+}
+
+
+/* The footer and bottom navigation bar */
+.footer {
+    font-family: Kanit;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: 2px solid rgb(255, 255, 255);
+    border-spacing: 40px 0px;
+    border-width: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.bottomnav {
+    background-color: rgba(0, 0, 0, 0.849);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.bottomnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-family: Kanit;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+.bottomav a:hover {
+    background-color: #ffffffcd;
+    color: black;
+}
+
+
+
+
+/* ---------INDEX--------- */
+.bg-index {
+    background: linear-gradient(to top, #00000073 20%, #000000a4 70%, black 100%), url('https://itsjustliliana.github.io/images/mountains1.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg2-index {
+    max-width: 104%;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 20%, black 80%, rgb(0, 0, 0) 100%);
+    position: relative;
+    right: 2%;
+    top: 540px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    color: black;
+    font-size: 17px;
+    font-family: Kanit;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.links:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.text-index {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    top: 1300px;
+    left: 200px;
+    margin-right: 60%;
+}
+
+.title-index {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    top: 1250px;
+    left: 200px;
+    margin-right: 60%;
+}
+
+
+
+
+/* ---------PROFILE--------- */
+.image-p {
+    border: solid 1px !important;
+    border-color: white !important;
+    border-radius: 10px;
+
+    float: right;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 5%;
+}
+
+
+
+
+/* ---------GAMES: Slideshows--------- */
+.mySlides1,
+.mySlides2 {
+    display: none;
+    margin-left: 60%;
+    position: relative;
+    bottom: 170px;
+}
+
+.mySlides3 {
+    display: none;
+    margin-left: 60%;
+    position: relative;
+    bottom: 185px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    bottom: 35px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 100%;
+    width: auto;
+    margin-left: 60%;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position "next" to right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover */
+.prev:hover,
+.next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+
+
+/* ---------BLOG: Blogposts--------- */
+.blogbox {
+    display: block;
+    width: 100%;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 50%;
+}
+
+.readmore {
+    font-family: Kanit;
+    color: black;
+    font-size: 13px;
+
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-blog {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-right: 3%;
+}
+
+.blogpagetext {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.blogimg {
+    border: solid 1px !important;
+    border-color: white !important;
+    border-radius: 10px;
+
+    float: right;
+    max-width: 30%;
+    margin-top: 110px;
+    margin-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container>article {
+    background-color: #ffffff14;
+    width: 600px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: white;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+
+/* ---------DASHBOARD: Table design--------- */
+.table-dashboard {
+    overflow: auto;
+    width: 100%;
+    font-family: Kanit;
+}
+
+.table-dashboard table {
+    border: 1px solid #ffffff;
+    height: 100%;
+    width: 1000px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table-dashboard caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table-dashboard th {
+    /*header*/
+    border: 1px solid #ffffff;
+    background-color: rgba(94, 188, 255, 0.444);
+    color: #ffffff;
+    padding: 5px;
+}
+
+.table-dashboard td {
+    /*content*/
+    border: 1px solid #ffffff;
+    background-color: #ffffff14;
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+
+
+/* ---------DASHBOARD: Progress bar--------- */
+progress {
+    display: block;
+    position: relative;
+    appearance: none;
+    width: 1000px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #ffffff09;
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(94, 188, 255, 0.322);
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+}
+
+
+
+
+/* ---------FAQ: dropdown menu--------- */
+.accordion {
+    background-color: #ffffff14;
+    border: solid 1px !important;
+    border-color: white !important;
+
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    font-family: Kanit;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: #ffffff3d;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(255, 0, 0, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.summary-faq {
+    margin-right: 100px;
+}
+
+
+
+
+/* ---------OTHER--------- */
+
+/* Remove line from links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffffd1;
+}
+
+
+
+/* Spacing in lines */
+.divmain {
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+.divfloat {
+    margin-top: 67px;
+    margin-left: 5%;
+}
+
+.divspace {
+    margin-top: 60px;
+}
+
+.div-faq {
+    margin-top: 35px;
+}
+
+.divblog {
+    margin-top: 25px;
+}
+
+.div-20px {
+    margin-top: 20px;
+}
+
+.div-index {
+    margin-top: 15%;
+    margin-right: 19px;
+}
+
+.divblank {
+    height: -100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+
+
+/* Highlight coloring */
+::selection {
+    background: rgba(255, 255, 255, 0.379);
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.379);
+    /* Gecko Browsers */
+}
+
+.bg2-index::selection {
+    background: rgba(0, 0, 0, 0);
+    /* WebKit/Blink Browsers */
+}
+
+.bg2-index::-moz-selection {
+    background: rgba(0, 0, 0, 0);
+    /* Gecko Browsers */
+}
+
+.secret::selection {
+    background: rgba(0, 0, 0, 0);
+    /* WebKit/Blink Browsers */
+}
+
+.secret::-moz-selection {
+    background: rgba(0, 0, 0, 0);
+    /* Gecko Browsers */
+}
